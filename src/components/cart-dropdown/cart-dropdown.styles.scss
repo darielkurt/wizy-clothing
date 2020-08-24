@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  // background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 .cart-dropdown {
     position: absolute;
     width: 240px;
@@ -10,6 +15,11 @@
     top: 90px;
     right: 40px;
     z-index: 5;
+
+    .empty-message {
+      font-size: 18px;
+      margin: 15px auto;
+    }
   
     .cart-items {
       height: 240px;
