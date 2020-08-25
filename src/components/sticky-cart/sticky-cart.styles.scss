@@ -1,0 +1,56 @@
+.sticky-cart {
+  position: fixed;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: white;
+  right: 0;
+  top: 70px;
+  margin-top: 30px;
+  bottom: 0;
+  z-index: 5;
+  overflow: scroll;
+  -webkit-box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+  .title {
+    font-weight: 200;
+    margin: 13px auto;
+  }
+
+  .empty-message {
+    font-size: 18px;
+    margin: 15px auto;
+  }
+
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    .cart-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    img {
+      display: block;
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+
+    .arrow {
+      cursor: pointer;
+      margin-right: 20px;
+    }
+  }
+
+  button {
+    margin-top: auto;
+  }
+}

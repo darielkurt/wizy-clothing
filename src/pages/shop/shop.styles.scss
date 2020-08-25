@@ -1,0 +1,10 @@
+.shop-page {
+    margin-top: 100px;
+    display: grid;
+    // flex-direction: row;
+    grid-template-columns: 6fr 1fr;
+    grid-gap: 50px;
+    // .sticky-cart{
+    //     width: 800px;
+    // }
+}
