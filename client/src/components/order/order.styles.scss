@@ -1,0 +1,22 @@
+.order {
+    background: #f5f5f5;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    .order-title {
+        margin: 5px 0;
+    }
+
+    .date {
+        font-size: 15px;
+        color: rgb(131, 131, 131);
+    }
+
+    .order-area {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        border-radius: 5px;
+    }
+}
